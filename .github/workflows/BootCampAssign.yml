@@ -30,4 +30,4 @@ jobs:
     - name: Installing surge on virtual machine
       run: npm install -g surge
     - name: Deploying using surge
-      run: surge ./ firstbootcampassignment.surge.sh --token $ {{ secrets.BOOTCAMP_PRACTICE_REPO }}
+      run: surge ./ firstbootcampassignment.surge.sh --token ${{ secrets.BOOTCAMP_PRACTICE_REPO }}
